@@ -269,7 +269,7 @@ a:active {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 30px 0;
+  margin: 14px 0 26px 0;
 }
 
 .flexbox>.speciality {
@@ -294,4 +294,52 @@ a:active {
 
 .subHeading>small {
   font-size: 14px;
+}
+
+.heading-to-left>h3 {
+  font-size: 18px;
+  padding-left: 34px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.dash {
+  color: #f0f0f0;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+
+.flexbox>.card {
+  width: 48%;
+  text-align: left;
+  border: 1px solid #f0f0f0;
+  margin: 1%;
+}
+
+.flexbox>.card>figure {
+  float: left;
+}
+
+.card-text {
+  margin: 8px 0 0 180px;
+}
+
+.card-heading {
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.card-text>a {
+  padding: 2px 8px;
+  margin: 8px 0;
+  background-color: #a0c63f;
+  color: #f0f0f0;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.card-desc {
+  font-size: 11px;
+  padding-top: 10px;
 }
