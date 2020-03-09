@@ -343,3 +343,30 @@ a:active {
   font-size: 11px;
   padding-top: 10px;
 }
+
+.ads {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ads>figure {
+  padding: 24px 0;
+}
+
+.back-to-top {
+  padding: 10px 0;
+  text-align: right;
+}
+
+.back-to-top>.top {
+  background-color: #a0c63f;
+  color: #f0f0f0;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.back-to-top>.top:hover {
+  box-shadow: 1px 1px 2px #aaaaaa;
+}
