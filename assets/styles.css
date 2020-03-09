@@ -356,7 +356,7 @@ a:active {
 }
 
 .back-to-top {
-  padding: 10px 0;
+  padding: 10px 0 18px 0;
   text-align: right;
 }
 
@@ -369,4 +369,24 @@ a:active {
 
 .back-to-top>.top:hover {
   box-shadow: 1px 1px 2px #aaaaaa;
+}
+
+footer {
+  border-top: 1px solid #aaaaaa;
+}
+
+.footer-flex {
+  width: 100%;
+  padding: 24px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-flex>.footer-section {
+  width: 25%;
+}
+
+.bottom {
+  width: 100%;
 }
