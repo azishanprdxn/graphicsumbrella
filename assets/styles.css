@@ -476,6 +476,7 @@ footer {
 }
 
 ::-webkit-input-placeholder {
+  color: #202020;
   font-style: italic;
 }
 
@@ -500,7 +501,7 @@ footer {
 }
 
 .bottom {
-  height: 18px;
+  height: 19px;
   background-color: #202020;
   color: #fcfcfc;
 }
