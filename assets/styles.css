@@ -150,6 +150,8 @@ body {
 
 .container {
   padding: 0 12px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .wrapper {
@@ -419,6 +421,10 @@ footer {
   color: #d8d8d8;
 }
 
+.social-links>li>a:hover  {
+  color: #212121;
+}
+
 .footer-section>.archives>li {
   padding: 9px 0;
   margin-right: 24px;
@@ -446,6 +452,10 @@ footer {
 
 .footer-section>.addresses>li>a {
   text-decoration: none;
+}
+
+.footer-section>.addresses>li>a:hover {
+  text-decoration: underline;
 }
 
 .address-icon {
